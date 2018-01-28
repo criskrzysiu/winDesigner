@@ -1,3 +1,7 @@
+[![CircleCI](https://circleci.com/gh/criskrzysiu/winDesigner.svg?style=svg)](https://circleci.com/gh/criskrzysiu/winDesigner)
+
+[![codecov](https://codecov.io/gh/criskrzysiu/winDesigner/branch/master/graph/badge.svg)](https://codecov.io/gh/criskrzysiu/winDesigner)
+
 # winDesigner
 This application was generated using JHipster 4.13.3, you can find documentation and help at [http://www.jhipster.tech/documentation-archive/v4.13.3](http://www.jhipster.tech/documentation-archive/v4.13.3).
 
