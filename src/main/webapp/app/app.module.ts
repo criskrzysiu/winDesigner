@@ -12,6 +12,8 @@ import { WinDesignerEntityModule } from './entities/entity.module';
 import { customHttpProvider } from './blocks/interceptor/http.provider';
 import { PaginationConfig } from './blocks/config/uib-pagination.config';
 
+import { WinDesignerprimengModule } from './primeng/primeng.module';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 
 import {
@@ -33,6 +35,8 @@ import {
         WinDesignerHomeModule,
         WinDesignerAdminModule,
         WinDesignerEntityModule,
+        WinDesignerprimengModule,
+        BrowserAnimationsModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [
