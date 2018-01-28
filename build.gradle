@@ -38,6 +38,7 @@ apply plugin: 'propdeps'
 apply plugin: 'com.moowork.node'
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'idea'
+apply plugin: 'jacoco'
 
 dependencyManagement {
   imports {
@@ -275,3 +276,10 @@ if (project.hasProperty('nodeInstall')) {
 compileJava.dependsOn processResources
 processResources.dependsOn cleanResources,bootBuildInfo
 bootBuildInfo.mustRunAfter cleanResources
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled false
+    }
+}
